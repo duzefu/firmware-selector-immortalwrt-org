@@ -1,0 +1,21 @@
+README.md
+  s_27851aeffab946::t_168e654751c3f2 11-19
+serve.sh
+  s_27851aeffab946::t_9a799dee79b38c 1-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "f6f5d80a4fcb237cd67d5313d9513ac32980cfe8",
+  "prompts": {},
+  "sessions": {
+    "s_27851aeffab946": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e43fafb3-fea2-4659-9118-7fc2c1a25d0f",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "zefu.du <zefu.du@gl-inet.com>"
+    }
+  }
+}
