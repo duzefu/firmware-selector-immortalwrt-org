@@ -47,7 +47,7 @@
     "tr-queued": "请求位于构建队列中",
     "tr-validate-revision": "验证版本",
     "tr-popular-packages": "常用 OpenWrt 插件",
-    "tr-plugin-category-network": "网络与加速",
+    "tr-plugin-category-proxy": "科学上网软件",
     "tr-plugin-category-remote": "远程访问",
     "tr-plugin-category-dns": "DNS 与安全",
     "tr-plugin-category-storage": "存储与 NAS",

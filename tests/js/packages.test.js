@@ -15,6 +15,24 @@ describe("popularPackageCategories", () => {
     );
   });
 
+  it("replaces the network category with proxy tools", () => {
+    const categoryIds = popularPackageCategories.map((category) => category.id);
+    const proxyCategory = popularPackageCategories.find(
+      (category) => category.id === "proxy"
+    );
+
+    assert.ok(!categoryIds.includes("network"));
+    assert.ok(proxyCategory);
+    assert.ok(
+      proxyCategory.packages.some(
+        (pkg) => pkg.name === "luci-app-openclash"
+      )
+    );
+    assert.ok(
+      proxyCategory.packages.some((pkg) => pkg.name === "luci-app-passwall")
+    );
+  });
+
   it("exposes a flattened package name list", () => {
     const names = getPopularPackageNames([
       { packages: [{ name: "a" }, { name: "b" }] },

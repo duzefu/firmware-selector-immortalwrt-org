@@ -47,7 +47,7 @@
     "tr-packages": "Installed Packages",
     "tr-defaults": "Script to run on first boot (uci-defaults)",
     "tr-popular-packages": "Popular OpenWrt Plugins",
-    "tr-plugin-category-network": "Network",
+    "tr-plugin-category-proxy": "Proxy Tools",
     "tr-plugin-category-remote": "Remote Access",
     "tr-plugin-category-dns": "DNS & Security",
     "tr-plugin-category-storage": "Storage & NAS",

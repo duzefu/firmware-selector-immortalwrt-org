@@ -2,16 +2,18 @@ import { $, $$, split } from "./utils.js";
 
 export const popularPackageCategories = [
   {
-    id: "network",
-    title: "Network",
-    titleKey: "tr-plugin-category-network",
+    id: "proxy",
+    title: "Proxy",
+    titleKey: "tr-plugin-category-proxy",
     packages: [
-      { name: "luci-app-turboacc", label: "Turbo ACC" },
-      { name: "luci-app-mwan3", label: "MWAN3" },
-      { name: "luci-app-qosmate", label: "QoSmate" },
-      { name: "luci-app-sqm-autorate", label: "SQM Autorate" },
-      { name: "luci-app-nlbwmon", label: "Bandwidth Monitor" },
-      { name: "luci-app-easymesh", label: "EasyMesh" },
+      { name: "luci-app-passwall", label: "PassWall" },
+      { name: "luci-app-passwall2", label: "PassWall2" },
+      { name: "luci-app-ssr-plus", label: "SSR Plus" },
+      { name: "luci-app-openclash", label: "OpenClash" },
+      { name: "luci-app-homeproxy", label: "HomeProxy" },
+      { name: "luci-app-nikki", label: "Nikki" },
+      { name: "luci-app-v2raya", label: "v2rayA" },
+      { name: "luci-app-daed", label: "DAED" },
     ],
   },
   {
