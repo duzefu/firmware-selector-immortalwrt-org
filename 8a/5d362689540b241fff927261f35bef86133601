@@ -1,0 +1,21 @@
+www/js/packages.js
+  s_6060ba33d98850::t_0b73418ab8c8ad 21-22
+  s_6060ba33d98850::t_1f58996fa2a93f 50
+  s_6060ba33d98850::t_354dc1f77a81ba 75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "8a5d362689540b241fff927261f35bef86133601",
+  "prompts": {},
+  "sessions": {
+    "s_6060ba33d98850": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "097304b0-1fda-4f70-9853-dd276ae82b21",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "zefu.du <zefu.du@gl-inet.com>"
+    }
+  }
+}
