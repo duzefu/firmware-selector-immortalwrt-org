@@ -5,7 +5,7 @@
     "tr-not-found": "No model found!",
     "tr-load": "Download ImmortalWrt firmware for your device",
     "tr-links": "Links",
-    "tr-title": "ImmortalWrt Firmware Selector",
+    "tr-title": "A Better ImmortalWrt Firmware Selector",
     "tr-message": "Type the name or model of your device, then select a stable build or the nightly \"snapshot\" build.",
     "tr-version-build": "About this build",
     "tr-custom-build": "Custom Build",
