@@ -1,0 +1,25 @@
+tests/js/packages.test.js
+  s_7d320e1cf213ba::t_ae2d083f499809 18-35
+www/langs/zh-cn.json
+  s_7d320e1cf213ba::t_4fe0e81e5a0c2f 50
+www/js/packages.js
+  s_7d320e1cf213ba::t_b7db61ebe3e9c8 5-7,9-16
+www/langs/en.json
+  s_7d320e1cf213ba::t_8b192d0ae50a39 50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "5226f7f4370cbb7f1cb69837235fa702b63fa2e2",
+  "prompts": {},
+  "sessions": {
+    "s_7d320e1cf213ba": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f127d-66a7-7dd2-aaff-560f2e117d36",
+        "model": "gpt-5.5"
+      },
+      "human_author": "zefu.du <zefu.du@gl-inet.com>"
+    }
+  }
+}
