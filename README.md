@@ -8,8 +8,15 @@ HTML/CSS/JavaScript. Checkout the [Demo](https://firmware-selector.openwrt.org).
 ## Quick Run
 
 * Download the sources and change the working directory
-* Start webserver (e.g. `python3 -m http.server`)
-* Go to [http://localhost:8000/www/](http://localhost:8000/www/) in your web browser
+* Run `./serve.sh` (optionally pass a port, e.g. `./serve.sh 8080`)
+* Go to [http://localhost:8000/](http://localhost:8000/) in your web browser
+
+`serve.sh` serves the `www/` folder directly and auto-detects an available
+HTTP server (`python3` / `python` / `php` / `busybox`). To expose it on the
+LAN, run `HOST=0.0.0.0 ./serve.sh`.
+
+Alternatively start a webserver manually, e.g. `python3 -m http.server` and
+open [http://localhost:8000/www/](http://localhost:8000/www/).
 
 Configure with [config.js](www/config.js).
 
