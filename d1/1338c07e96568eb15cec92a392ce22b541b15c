@@ -1,0 +1,22 @@
+www/index.html
+  s_0d051838287e78::t_b62abe9c582bbb 7
+  s_0d051838287e78::t_c361fb29c6707d 230
+www/langs/en.json
+  s_0d051838287e78::t_bb9547169be17c 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "d11338c07e96568eb15cec92a392ce22b541b15c",
+  "prompts": {},
+  "sessions": {
+    "s_0d051838287e78": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8e30d2a6-7f3f-4a5a-9f02-62d4ec40f767",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "zefu.du <zefu.du@gl-inet.com>"
+    }
+  }
+}
