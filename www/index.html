@@ -134,8 +134,8 @@
                 <a id="image-link" href="#"></a>
               </div>
             </div>
-            <div class="row">
-              <details id="asu" class="hide" style="width: 100%">
+            <div class="row row-wide">
+              <details id="asu" class="hide" open>
                 <summary>
                   <span class="tr-customize"
                     >Customize installed packages and/or first boot script</span
@@ -158,6 +158,18 @@
                     </details>
                   </div>
                 </div>
+                <section
+                  class="package-shortcuts"
+                  aria-labelledby="package-shortcuts-title"
+                >
+                  <div class="package-shortcuts__header">
+                    <h4 id="package-shortcuts-title" class="tr-popular-packages">
+                      Popular OpenWrt Plugins
+                    </h4>
+                    <span class="package-shortcuts__badge">OpenWrt</span>
+                  </div>
+                  <div id="package-shortcuts" class="plugin-categories"></div>
+                </section>
                 <div>
                   <h4 class="tr-packages">Installed Packages</h4>
                   <textarea

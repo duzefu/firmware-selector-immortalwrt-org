@@ -9,6 +9,7 @@ import {
   show,
 } from "./utils.js";
 import { translate } from "./translation.js";
+import { syncPackageShortcutsFromTextarea } from "./packages.js";
 
 export function getModelTitles(titles) {
   return titles.map((e) => {
@@ -251,8 +252,8 @@ export function updateImages(version, mobj, context) {
       };
     }
 
+    $("#asu").open = true;
     if ("manifest" in mobj === false) {
-      $("#asu").open = false;
       hide("#asu-log");
       hide("#asu-buildstatus");
       $("#asu-packages").value = buildAsuPackages(
@@ -260,6 +261,7 @@ export function updateImages(version, mobj, context) {
         config,
         customDevicePackages
       ).join(" ");
+      syncPackageShortcutsFromTextarea();
     }
 
     translate();

@@ -2,6 +2,7 @@ import { $, show, showAlert } from "./utils.js";
 import { initTranslation } from "./translation.js";
 import { createAsuRequestBuilder } from "./asu.js";
 import { updateImages } from "./images.js";
+import { setupPackageShortcuts } from "./packages.js";
 import {
   insertSnapshotVersions,
   normalizeOverviewProfiles,
@@ -159,6 +160,7 @@ async function init() {
   );
 
   setupUciDefaults();
+  setupPackageShortcuts();
   updateImagesBound();
   initTranslation();
 
